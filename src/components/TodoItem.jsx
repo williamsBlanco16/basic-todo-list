@@ -7,7 +7,15 @@ class TodoItem extends React.Component{
       name,
       done} = this.props;
 
-  return(<li style={{textDecoration:done ? 'line-through ':'none'}}> { name } </li>);
+  return(
+    <li 
+      style={{textDecoration:done ? 'line-through ':'none'}}> 
+      { name } 
+      <a href="#" 
+        onClick={this.props.onToggleDone}>
+          {done?' Marck as not done':' Marck As done'}
+        </a>
+    </li>);
   }
 }
 
