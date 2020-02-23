@@ -39,3 +39,12 @@ these libraries are known as loaders
 
 npm intall -D babel-loader
 */
+
+/**
+ * with this project we learned:
+  - basic structure of react project 
+  -Use package.json
+  -Use npm 
+  -Use git
+  -Use babel and webpack
+  - we practice base concepts of react*/
